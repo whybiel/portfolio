@@ -1,22 +1,26 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
 
-import Home from "./Home/index"
+import Header from "./Header/index"
+
 
 const GlobalStyle = createGlobalStyle`
   *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    color: white;
   } 
+  body{
+    background-color: 	#1C1C1C;
+  }
 `
 
 export default function App() {
   return (
     <>
       <GlobalStyle/>
-      <Home/>
+      <Header/>
+    
     </>
   )
 }
