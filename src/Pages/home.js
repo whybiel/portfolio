@@ -99,15 +99,15 @@ export default function App() {
       <Footer>
         <p>Site criado por Gabriel Henrique Ferreira de Moraes</p>
         <BoxSocial>
-          <a href="https://wa.me/+5521987434106" target="_blank">
+          <a href="https://wa.me/+5521987434106">
             <SocialMedia src={wts} alt="Logo Whatsapp" />
           </a>
 
-          <a href="https://www.linkedin.com/in/gabriel-henrique-ferreira-de-moraes-3328831ab/" target="_blank">
+          <a href="https://www.linkedin.com/in/gabriel-henrique-ferreira-de-moraes-3328831ab/">
             <SocialMedia src={linkedin} alt="Logo Linkedin" />
           </a>
 
-          <a href="https://www.instagram.com/whybiel_/" target="_blank">
+          <a href="https://www.instagram.com/whybiel_/">
             <SocialMedia src={insta} alt="Logo Instagram" />
           </a>
         </BoxSocial>
