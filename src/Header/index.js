@@ -63,26 +63,6 @@ const Anchor = styled(Link)`
   }
     `
 
-const SocialMedia = styled.img`
-    width: 25px;
-
-    border-radius: 10px;
-
-    cursor: pointer;
-
-    &:hover{
-        box-shadow: 0 0 5px 5px white;
-    }
-`
-
-const BoxSocial = styled.div`
-    width: 10%;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-`
-
 export default function App() {
     return (
         <Container>
