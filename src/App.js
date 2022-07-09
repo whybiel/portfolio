@@ -1,7 +1,7 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
 
-import Header from "./Header/index"
+import Header from "./components/Header/index"
 
 
 const GlobalStyle = createGlobalStyle`
@@ -13,6 +13,17 @@ const GlobalStyle = createGlobalStyle`
   body{
     background-color: 	#1C1C1C;
   }
+  ::-webkit-scrollbar{
+    width:5px;
+  }
+  ::-webkit-scrollbar-track{
+    background:#1C1C1C;
+  }
+  ::-webkit-scrollbar-thumb{
+    width:2px;
+    background:#FFA500;
+    border-radius: 30px;
+  }
 `
 
 export default function App() {
@@ -20,7 +31,6 @@ export default function App() {
     <>
       <GlobalStyle/>
       <Header/>
-    
     </>
   )
 }
