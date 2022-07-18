@@ -17,6 +17,10 @@ export const NavBar = styled.nav`
     
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+    width: 75%;
+  }
 `
 
 export const BoxNav = styled.div`

@@ -15,6 +15,10 @@ export const Message = styled.h2`
     width: 70%;
     font-size:3em;
     text-align: center;
+
+    @media (max-width:768px) {
+        font-size: 2em;
+    }
 `
 export const SpanMsg =styled.span`
     margin:0;
@@ -26,6 +30,11 @@ export const SpanMsg =styled.span`
     text-transform: uppercase;
     font-weight: 900;
     -webkit-background-clip: text;
+
+
+    @media (max-width:768px) {
+        font-size: 1em;
+    }
 
     @keyframes animate {
         0%,
@@ -42,6 +51,8 @@ export const SpanMsg =styled.span`
             background-position: right top;
         }
     }
+
+    
 `
 export const BoxAbout = styled.div`
     width: 90%;
@@ -58,6 +69,10 @@ export const ImgMy = styled.img`
 
     border: 2px solid #FFA500;
     border-radius:0px 20px 0px 20px;
+
+    @media (max-width:768px) {
+        width: 50%;
+    }
 `
 
 export const SpanGlobal = styled.span`
@@ -69,5 +84,11 @@ export const P = styled.p`
     width: 30%;
 
     text-align: justify;
-    font-size: 1.2em;
+    font-size: 1.5em;
+
+    @media (max-width:768px) {
+        width: 40%;
+
+        font-size: 0.9em;
+    }
 `
