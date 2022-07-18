@@ -30,6 +30,10 @@ export const BoxNav = styled.div`
 
 export const LogoImg = styled.img`
     height: 10em;
+
+    @media (max-width: 768px) {
+    height:8em;
+  }
 `
 
 export const List = styled.ul`

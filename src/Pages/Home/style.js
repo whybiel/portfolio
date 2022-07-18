@@ -26,7 +26,7 @@ export const Image = styled.img`
   width: 100%;
 
   @media (max-width: 768px) {
-    width: 18em;
+    width: 16em;
   }
 `
 export const BoxText = styled.div`
@@ -76,6 +76,7 @@ export const Footer = styled.footer`
   justify-content: space-around;
 
   @media (max-width: 768px) {
+    margin: 0 0.5em 0 0.5em;
     font-size:0.9em;
   }
 `
