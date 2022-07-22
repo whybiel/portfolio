@@ -5,7 +5,7 @@ import Rjimg from "./img/imgRJ.jpeg"
 import Faetecimg from "./img/imgFAETEC.jpeg"
 import Finalimg from "./img/imgFINAL.jpeg"
 
-export default function App() {
+export default function About() {
   return (
     <S.Container>
       <S.Message>Olá, me chamo <S.SpanMsg>Gabriel Henrique Ferreira de Moraes</S.SpanMsg>...</S.Message>

@@ -9,7 +9,7 @@ import Works from "../../Pages/Works"
 
 
 
-export default function App() {
+export default function Header() {
     return (
         <S.Container>
 

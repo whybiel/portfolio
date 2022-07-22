@@ -6,7 +6,7 @@ import wts from "./img/whatsapp.png"
 import insta from "./img/instagram.png"
 import linkedin from "./img/linkedin.png"
 
-export default function App() {
+export default function Home() {
   const [Text, setText] = useState("Hi!")
 
   useEffect(() => {
