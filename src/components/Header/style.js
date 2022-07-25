@@ -27,6 +27,7 @@ export const BoxNav = styled.div`
     display: flex;
     align-items: center;
 `
+export const AnchorLogo = styled(Link)``
 
 export const LogoImg = styled.img`
     height: 10em;

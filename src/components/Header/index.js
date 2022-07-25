@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 import * as S from "./style"
 import logo from "./img/logo.png"
@@ -16,7 +16,7 @@ export default function Header() {
             <Router>
                 <S.NavBar>
                     <S.BoxNav>
-                        <S.LogoImg src={logo} alt="Logo GM" />
+                        <S.AnchorLogo to='/'><S.LogoImg src={logo} alt="Logo GM" /></S.AnchorLogo>
                     </S.BoxNav>
                     <S.List>
                         <li><S.Anchor to='/'>Home</S.Anchor></li>
